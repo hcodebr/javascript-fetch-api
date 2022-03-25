@@ -8,9 +8,6 @@ const showData = (result)=>{
     }
 }
 
-
-
-
 cep.addEventListener("blur",(e)=>{
     let search = cep.value.replace("-","")
     const options = {
